@@ -9,7 +9,26 @@ The evaluation using root mean squared error, signal correlation, and frequency 
 These findings show that naive applications of flow-match frameworks to EEG processing do not automatically give better results over the previous methods. The work lays the foundation for more advanced applications of continuous normalizing flows in EEG signal processing.
 
 ## Getting started
-### Create a virtual environment
-```python
-pyhton -m  venv .venv
+### Pre-requirements
+- Python 3.10 or higher
+- Git
+### Clone repository
+```bash
+git clone https://github.com/ZeroMeOut/Flow-Match-EEG.git
+cd Flow-Match-EGG
 ```
+### Create a virtual environment in the repository
+```python
+pyhton -m venv .venv
+```
+### Install dependencies
+```python
+pip install -r requirements.txt
+```
+### Generating data
+Enter into EEGDenoisenetTraining/eegdenoisenet and run the ```generate_data.py``` file
+```python
+python run generate_data.py
+```
+### Training and Testing
+All IPython notebooks that have training_ are for training, and ```testing.ipynb``` for testing the trained models. You can also open TensorBoard via the training notebooks for the training and validation losses.
