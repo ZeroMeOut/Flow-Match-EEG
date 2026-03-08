@@ -33,6 +33,6 @@ python run generate_data.py
 ### Training and Testing
 All IPython notebooks that have training_ are for training, and ```testing.ipynb``` for testing the trained models. You can also open TensorBoard via the training notebooks for the training and validation losses.
 
-###
+### Contact 
 Feel free to contact me if you have any problems running the code, I will be happy to help 
 Email: wiziset@gmail.com
